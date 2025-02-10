@@ -1,0 +1,27 @@
+*{
+    background-color: greenyellow;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    text-align: center;
+    color: rgb(67, 14, 121);
+    padding: 20px;
+}
+.images{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.box{
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    flex-basis: 20%;
+}
+.box:hover{
+    color: blue;
+}
