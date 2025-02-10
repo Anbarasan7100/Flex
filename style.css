@@ -16,11 +16,23 @@
 
 }
 .box{
-    width: 200px;
+
     text-align: center;
     cursor: pointer;
     margin: 5px;
     flex-basis: 20%;
+}
+@media screen and (max-width:800px) {
+    .box{
+        flex-basis: 40%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .box{
+        flex-basis: 80%;
+    }
+    
 }
 .box:hover{
     color: blue;
